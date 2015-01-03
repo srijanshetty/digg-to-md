@@ -1,0 +1,33 @@
+{
+  "name": "digg-to-md",
+  "version": "1.0.0",
+  "description": "Convert OPML RSS feeds to markdown",
+  "main": "app.js",
+  "dependencies": {
+    "opml-to-json": "^0.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RSS",
+    "OPML",
+    "markdown",
+    "convert"
+  ],
+  "author": "Srijan R Shetty <srijan.shetty+code@gmail.com> (http://srijanshetty.in/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srijanshetty/RSS-to-markdown"
+  },
+  "bugs": {
+    "url": "https://github.com/srijanshetty/RSS-to-markdown/issues"
+  },
+  "homepage": "https://github.com/srijanshetty/RSS-to-markdown",
+  "preferGlobal": "true",
+  "bin": {
+      "digg-to-md": "app.js"
+  }
+}
